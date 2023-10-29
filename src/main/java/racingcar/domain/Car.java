@@ -8,7 +8,7 @@ public class Car {
     private String drawingMovement;
     private int numberOfMoves;
 
-    List<Car> cars = new ArrayList<>();
+    private List<Car> carList = new ArrayList<>();
 
     public Car(String name) {
         this.name = name;
@@ -40,7 +40,7 @@ public class Car {
         this.numberOfMoves = numberOfMoves;
     }
 
-    public void add(Car car) {
-        cars.add(car);
+    public void setCarList(String namesString) {
+
     }
 }
