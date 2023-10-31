@@ -22,6 +22,10 @@ public class UserInput {
         this.attemptsNumber = attemptsNumber;
     }
 
+    public HashSet<String> getCarHashSet() {
+        return carHashSet;
+    }
+
     public void checkNameOfCarsValidity() {
         if (isStringEmpty(nameOfCars)) {
             throw new IllegalArgumentException("Input value cannot be blank.");
