@@ -16,5 +16,7 @@ public class Application {
 
         userInput.setAttemptsNumber(attempsNumber);
         userInput.checkAttempsNumberValidity();
+
+
     }
 }

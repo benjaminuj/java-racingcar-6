@@ -4,13 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Car {
+    private final UserInput userInput;
     private String name;
     private String drawingMovement;
     private int numberOfMoves;
 
     private List<Car> carList = new ArrayList<>();
 
-    public Car(String name) {
+    public Car(UserInput userInput, String name) {
+        this.userInput = userInput;
         this.name = name;
         this.drawingMovement = "";
         this.numberOfMoves = 0;
@@ -43,4 +45,6 @@ public class Car {
     public void setCarList(String namesString) {
 
     }
+
+    public
 }
